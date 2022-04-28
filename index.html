@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Tetris</title>
+  <base href="./">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.a23b98dad0b19975f687.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <app-root></app-root>
+  <script>
+    if (!navigator.serviceWorker.controller) {
+        navigator.serviceWorker.register("/sw.js").then(function(reg) {
+            console.log("Service worker has been registered for scope: " + reg.scope);
+        });
+    }
+   </script>
+<script src="runtime.acf0dec4155e77772545.js" defer></script><script src="polyfills.42c177e4dfd3692e3a46.js" defer></script><script src="main.c8a28d9309d45aff0bab.js" defer></script></body>
+</html>
